@@ -1,1 +1,38 @@
 .env
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment & Secrets
+.env
+*.env
+secrets.json
+config.json
+replacements.txt
+replace.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and dist folders
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Node modules (if JS involved)
+node_modules/
